@@ -1,0 +1,34 @@
+header {
+  padding: 10px;
+}
+
+.my-button {
+  max-width: 160px;
+}
+
+.f-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+section#userLogs .user-log-item {
+  display: flex;
+  align-items: center;
+}
+section#userLogs .user-log-item .book-name,
+section#userLogs .user-log-item .user-name,
+section#userLogs .user-log-item .log-time {
+  flex: 1;
+}
+section#userLogs .user-log-item .log-time {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+
+section#users .user-list-item {
+  display: flex;
+}
+section#users .user-list-item .user-name {
+  flex: 1;
+}/*# sourceMappingURL=app.css.map */

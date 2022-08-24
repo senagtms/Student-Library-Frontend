@@ -1,0 +1,38 @@
+header {
+  padding: 10px;
+}
+
+.my-button {
+  max-width: 160px;
+}
+
+.f-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+section#userLogs {
+  .user-log-item {
+    display: flex;
+    align-items: center;
+    .book-name,
+    .user-name,
+    .log-time {
+      flex: 1;
+    }
+    .log-time {
+      display: flex;
+      align-items: center;
+      font-size: 13px;
+    }
+  }
+}
+
+section#users {
+  .user-list-item {
+    display: flex;
+    .user-name {
+      flex: 1;
+    }
+  }
+}
